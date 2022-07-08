@@ -1,0 +1,23 @@
+@import "../../styles/_colors.scss";
+
+.form-input {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid $grey-color-500;
+  height: 40px;
+
+  padding: 0 12px;
+
+  &:focus {
+    outline: none;
+    border: 2px solid $secondary-color-500;
+  }
+}
+
+.form-input-label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+}

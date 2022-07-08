@@ -1,0 +1,38 @@
+.alert_warn {
+  background: #ffebee;
+  border: 1px solid #ef9aa8;
+  border-radius: 4px;
+  padding: 20px 15px;
+  display: flex;
+  position: absolute;
+  z-index: 111;
+  top: 40px;
+  width: 100%;
+  left: 0;
+  max-width: 900px;
+  right: 0;
+  margin: auto;
+  .alert_icon {
+    img {
+      margin: 0;
+    }
+  }
+  .warning_text {
+    padding-left: 15px;
+  }
+  .warning_text {
+    h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: rgba(0, 0, 0, 0.87);
+      text-transform: initial;
+      font-weight: 600;
+    }
+    p {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}

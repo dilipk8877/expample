@@ -1,0 +1,45 @@
+@import "../../styles/_colors.scss";
+
+.custom-button {
+  min-width: 165px;
+  width: 100%;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  padding: 0 32px 0 32px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #182153;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 16px 0;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid $primary-color-500;
+  }
+
+  &.google-sign-in {
+    background-color: white;
+    border: 1px solid $grey-color-500;
+    color: #444;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    span.icon {
+      background: url('/assets/google_icon.png') no-repeat;
+      width: 24px;
+      height: 24px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: -4px;
+      margin-right: 8px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/colors";
+
+.sign-in {
+    width: 380px;   
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $grey-color-500;
+    color: $primary-color-500;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    content: 'or';
+    background: $grey-color-100;
+    padding: 0 12px;
+    position: relative;
+    top: -13px;
+}

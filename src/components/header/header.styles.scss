@@ -1,0 +1,59 @@
+@import "../../styles/colors";
+.header-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  .logo {
+    // width: 90px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .options {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    label:hover{
+        cursor: pointer;
+    }
+  }
+  .signed-in {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-link {
+    font-size: 12px;
+    padding: 0 10px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #5a5a5a;
+    border-bottom: 2px solid transparent;
+    &:hover{
+      border-bottom-color:#1F51E5;
+      text-decoration: none;
+    }
+  }
+}
+.profile-badge {
+  height: 30px;
+  width: 30px;
+  background-size: contain;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-top: 13px;
+}
+@media only screen and (min-width: 600px) {
+  .header-container {
+    padding: 0 16px;
+  }
+}

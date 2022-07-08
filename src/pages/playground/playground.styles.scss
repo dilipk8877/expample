@@ -1,0 +1,227 @@
+@import "../../styles/colors";
+
+.playground {
+    margin: 0 32px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+    &.primary-color-900 {
+        background: $primary-color-900;
+    }
+
+    &.primary-color-800 {
+        background: $primary-color-800;
+    }
+
+    &.primary-color-700 {
+        background: $primary-color-700;
+    }
+
+    &.primary-color-600 {
+        background: $primary-color-600;
+    }
+
+    &.primary-color-500 {
+        background: $primary-color-500;
+    }
+
+    &.primary-color-400 {
+        background: $primary-color-400;
+    }
+
+    &.primary-color-300 {
+        background: $primary-color-300;
+    }
+
+    &.primary-color-200 {
+        background: $primary-color-200;
+    }
+
+    &.primary-color-100 {
+        background: $primary-color-100;
+    }
+
+    &.secondary-color-900 {
+        background: $secondary-color-900;
+    }
+
+    &.secondary-color-800 {
+        background: $secondary-color-800;
+    }
+
+    &.secondary-color-700 {
+        background: $secondary-color-700;
+    }
+
+    &.secondary-color-600 {
+        background: $secondary-color-600;
+    }
+
+    &.secondary-color-500 {
+        background: $secondary-color-500;
+    }
+
+    &.secondary-color-400 {
+        background: $secondary-color-400;
+    }
+
+    &.secondary-color-300 {
+        background: $secondary-color-300;
+    }
+
+    &.secondary-color-200 {
+        background: $secondary-color-200;
+    }
+
+    &.secondary-color-100 {
+        background: $secondary-color-100;
+    }
+
+    &.grey-color-900 {
+        background: $grey-color-900;
+    }
+
+    &.grey-color-800 {
+        background: $grey-color-800;
+    }
+
+    &.grey-color-700 {
+        background: $grey-color-700;
+    }
+
+    &.grey-color-600 {
+        background: $grey-color-600;
+    }
+
+    &.grey-color-500 {
+        background: $grey-color-500;
+    }
+
+    &.grey-color-400 {
+        background: $grey-color-400;
+    }
+
+    &.grey-color-300 {
+        background: $grey-color-300;
+    }
+
+    &.grey-color-200 {
+        background: $grey-color-200;
+    }
+
+    &.grey-color-100 {
+        background: $grey-color-100;
+    }
+
+    &.success-color-900 {
+        background: $success-color-900;
+    }
+
+    &.success-color-800 {
+        background: $success-color-800;
+    }
+
+    &.success-color-700 {
+        background: $success-color-700;
+    }
+
+    &.success-color-600 {
+        background: $success-color-600;
+    }
+
+    &.success-color-500 {
+        background: $success-color-500;
+    }
+
+    &.success-color-400 {
+        background: $success-color-400;
+    }
+
+    &.success-color-300 {
+        background: $success-color-300;
+    }
+
+    &.success-color-200 {
+        background: $success-color-200;
+    }
+
+    &.success-color-100 {
+        background: $success-color-100;
+    }
+
+    &.warning-color-900 {
+        background: $warning-color-900;
+    }
+
+    &.warning-color-800 {
+        background: $warning-color-800;
+    }
+
+    &.warning-color-700 {
+        background: $warning-color-700;
+    }
+
+    &.warning-color-600 {
+        background: $warning-color-600;
+    }
+
+    &.warning-color-500 {
+        background: $warning-color-500;
+    }
+
+    &.warning-color-400 {
+        background: $warning-color-400;
+    }
+
+    &.warning-color-300 {
+        background: $warning-color-300;
+    }
+
+    &.warning-color-200 {
+        background: $warning-color-200;
+    }
+
+    &.warning-color-100 {
+        background: $warning-color-100;
+    }
+
+    &.alert-color-900 {
+        background: $alert-color-900;
+    }
+
+    &.alert-color-800 {
+        background: $alert-color-800;
+    }
+
+    &.alert-color-700 {
+        background: $alert-color-700;
+    }
+
+    &.alert-color-600 {
+        background: $alert-color-600;
+    }
+
+    &.alert-color-500 {
+        background: $alert-color-500;
+    }
+
+    &.alert-color-400 {
+        background: $alert-color-400;
+    }
+
+    &.alert-color-300 {
+        background: $alert-color-300;
+    }
+
+    &.alert-color-200 {
+        background: $alert-color-200;
+    }
+
+    &.alert-color-100 {
+        background: $alert-color-100;
+    }
+}

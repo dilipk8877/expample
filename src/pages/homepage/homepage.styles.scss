@@ -1,0 +1,120 @@
+.homepage {    
+ 
+
+    .banner {
+        margin: 0;
+        position: relative;
+        
+    }
+
+    .card {
+        .alert_icon {
+            img{
+
+                margin:0;
+            }
+        }
+        
+
+        .image {
+            background-image: url('../../assets/banner-image.jpg');
+            width: 100%;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            margin: 16px;
+        }
+    }
+
+    .homepage .social-media {
+    display: flex;
+    justify-content: center;
+    background-color: #0D32A0;
+}
+        img {
+            height: 24px;
+            width: 24px;
+            margin: 8px;
+        }
+    }
+
+
+    @media only screen and (min-width: 600px) {
+        .banner {
+            width: 100%;
+            height: 640px;
+            margin: 0;
+            background-image: url('../../assets/homepage-banner.png');
+            background-size:cover;
+            background-position: center;
+    
+            .banner-overlay {
+                width: 100%;
+                height: 100%;
+                background-color: #0d32a0e0;
+                position: absolute;
+                top:0;
+                left:0;
+            }
+        
+          
+
+        .card {
+            width: 900px;
+            background: #f1f1f1;
+            justify-content: center;
+            margin: 0 auto;
+           position:absolute;
+           left:0;
+           right:0;
+           bottom:0;
+    
+            .main {
+                display: flex;
+                flex-direction: row;
+            }
+    
+            .image {
+                width: 36%;
+                height: 480px;
+            }
+    
+            .content {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 64%;
+                padding: 0 32px;
+            }
+    
+            .intro {
+                margin-bottom: 16px;
+            }
+    
+
+        }
+    }
+    .social-media {
+        background: #0D32A0;
+        text-align: center;
+        max-width: 900px;
+        margin:auto;
+    }
+}
+.close_search {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 20px;
+    img{
+
+        margin: 0;
+        width: 14px;
+        height: 14px;
+    }
+}
+
